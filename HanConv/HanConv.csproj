@@ -7,6 +7,12 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <Compile Remove="nuget\**" />
+    <EmbeddedResource Remove="nuget\**" />
+    <None Remove="nuget\**" />
+  </ItemGroup>
+
+  <ItemGroup>
     <Reference Include="UnicodeInformation">
       <HintPath>..\Libraries\$(Configuration)\UnicodeInformation.dll</HintPath>
     </Reference>

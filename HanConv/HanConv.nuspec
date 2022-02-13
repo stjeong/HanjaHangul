@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2013/05/nuspec.xsd">
+    <metadata minClientVersion="2.12">
+        <id>HanConv</id>
+        <title>Hanja to Hangul</title>
+        <version>1.0.0</version>
+        <authors>SeongTae Jeong</authors>
+        <requireLicenseAcceptance>false</requireLicenseAcceptance>
+        <description>Hanja to Hangul (C# ports of "Hanja Hangul Project v1.01 (파이썬) - https://blog.daum.net/masoris20/187"</description>
+        <tags>CSharp, Unicode</tags>
+        <projectUrl>https://github.com/stjeong/HanjaHangul</projectUrl>
+        <license type="expression">MIT</license>
+        <dependencies>
+            <group targetFramework="net6.0" />
+        </dependencies>
+    </metadata>
+</package>
