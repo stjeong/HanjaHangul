@@ -3,7 +3,7 @@
     <metadata minClientVersion="2.12">
         <id>HanConv</id>
         <title>Hanja to Hangul</title>
-        <version>1.0.0</version>
+        <version>1.0.1</version>
         <authors>SeongTae Jeong</authors>
         <requireLicenseAcceptance>false</requireLicenseAcceptance>
         <description>Hanja to Hangul (C# ports of "Hanja Hangul Project v1.01 (파이썬) - https://blog.daum.net/masoris20/187"</description>

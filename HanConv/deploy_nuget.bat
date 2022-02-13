@@ -9,7 +9,7 @@ FOR /F %%I IN ("%0") DO SET CURRENTDIR=%%~dpI
 msbuild %CURRENTDIR%%PRJNAME%.csproj /p:Configuration=%BUILDCONFIG%;DefineConstants="TRACE" /t:Rebuild
 if ERRORLEVEL 1 goto BuildError
 
-robocopy %CURRENTDIR%bin\%BUILDCONFIG%\ %CURRENTDIR%nuget\root\lib\net6.0 /XF *.json
+robocopy %CURRENTDIR%..\bin\ %CURRENTDIR%nuget\root\lib\net6.0 /XF *.json
 robocopy %CURRENTDIR% %CURRENTDIR%nuget\root %PRJNAME%.nuspec
 
 nuget pack %CURRENTDIR%\nuget\root\%PRJNAME%.nuspec -OutputDirectory %CURRENTDIR%nuget_output
